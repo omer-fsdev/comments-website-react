@@ -1,0 +1,18 @@
+@import "./variable";
+
+.btn-cont {
+  button {
+    color: white;
+    margin: 5px auto;
+    border-radius: 5px;
+  }
+  &-small {
+    background-color: $c4;
+    padding: 5px;
+  }
+  &--large {
+    background-color: $c1;
+    width: 60px;
+    padding: 5px;
+  }
+}

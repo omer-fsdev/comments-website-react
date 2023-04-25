@@ -1,0 +1,16 @@
+@import "./scss/button";
+@import "./scss/reset";
+@import "./scss/variable";
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(237, 255, 253);
+}
+
+h1 {
+  color: $c4;
+}
+
+h2 {
+  color: $c1;
+}
