@@ -6,8 +6,10 @@ const Card = ({ data }) => {
   return (
     <div className="cont">
       {data.map(({ name, job, img, comment }) => {
-        {/* const {name, job, img, comment} = i */}
-        {/* That "return" below belongs to "map" */}
+        {
+          /* const {name, job, img, comment} = i */
+          /* That "return" below belongs to "map" */
+        }
         return (
           <div className="crd">
             <h1>{name}</h1>
