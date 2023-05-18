@@ -5,12 +5,12 @@ const Card = ({ data }) => {
   console.log(data);
   return (
     <div className="cont">
-      {data.map(({ name, job, img, comment }) => {
+      {data.map(({ name, job, img, comment, id }) => {
         // Removed the unnecessary nested block.
         // const {name, job, img, comment} = i
         // That "return" below belongs to "map"
         return (
-          <div className="crd">
+          <div className="crd" key={id}>
             <h1>{name}</h1>
             <h2>{job}</h2>
             <p>{comment}</p>
