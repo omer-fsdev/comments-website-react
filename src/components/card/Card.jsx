@@ -6,7 +6,7 @@ const Card = ({ data }) => {
   return (
     <div className="cont">
       {data.map(({ name, job, img, comment }) => {
-        // Removed the unnecessary nested block
+        // Removed the unnecessary nested block.
         // const {name, job, img, comment} = i
         // That "return" below belongs to "map"
         return (
